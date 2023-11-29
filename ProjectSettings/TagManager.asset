@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 2984937273
+    locked: 0
+  - name: House
+    uniqueID: 3968748127
+    locked: 0
+  - name: CAT
+    uniqueID: 947690307
+    locked: 0
