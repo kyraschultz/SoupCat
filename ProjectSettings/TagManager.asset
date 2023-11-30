@@ -47,6 +47,9 @@ TagManager:
   - name: House
     uniqueID: 3968748127
     locked: 0
+  - name: Player
+    uniqueID: 43437481
+    locked: 0
   - name: CAT
     uniqueID: 947690307
     locked: 0
