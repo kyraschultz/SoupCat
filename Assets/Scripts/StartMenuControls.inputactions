@@ -1,0 +1,34 @@
+{
+    "name": "StartMenuControls",
+    "maps": [
+        {
+            "name": "StartGame",
+            "id": "a6b825b5-9373-46df-a7b8-22202cb08b7c",
+            "actions": [
+                {
+                    "name": "Play",
+                    "type": "Button",
+                    "id": "5ec749a5-1554-45c0-958c-b7dfa83fc43d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "102110b7-00e5-4ec3-a785-0124be575b62",
+                    "path": "<Mouse>/press",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Play",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
