@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     PlayerControls controls;
     Vector2 direction = new Vector2(0f, 0f);
 
+
     public Rigidbody2D playerRB;
     public float speed = 400;
     bool isFacingRight = true;

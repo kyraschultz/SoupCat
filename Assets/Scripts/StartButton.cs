@@ -21,6 +21,7 @@ public class StartButton : MonoBehaviour
         if (controls.StartGame.Play.WasPressedThisFrame())
         {
             // Interact with object
+            controls.Disable();
             SceneManager.LoadScene("Main", LoadSceneMode.Additive);
             UnityEngine.Debug.Log("Click");
         }

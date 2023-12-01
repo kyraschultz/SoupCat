@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Seed
+  - Carrot
   layers:
   - Default
   - TransparentFX
@@ -52,4 +54,7 @@ TagManager:
     locked: 0
   - name: CAT
     uniqueID: 947690307
+    locked: 0
+  - name: UI
+    uniqueID: 145247707
     locked: 0

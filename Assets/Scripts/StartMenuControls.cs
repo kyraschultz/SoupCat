@@ -33,7 +33,7 @@ public partial class @StartMenuControls: IInputActionCollection2, IDisposable
                     ""id"": ""5ec749a5-1554-45c0-958c-b7dfa83fc43d"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Press(behavior=2)"",
                     ""initialStateCheck"": false
                 }
             ],
