@@ -28,7 +28,22 @@ public class Seed : MonoBehaviour
                 if(thisSeed.tag == "Carrot")
                 {
                     Instantiate(itemButton, inventory.slots[0].transform, false);
-                    inventory.numItem[0] += 1;
+                    inventory.numItem[0] += 24;
+                }
+                else if (thisSeed.tag == "Corn")
+                {
+                    Instantiate(itemButton, inventory.slots[1].transform, false);
+                    inventory.numItem[1] += 24;
+                }
+                else if (thisSeed.tag == "Wheat")
+                {
+                    Instantiate(itemButton, inventory.slots[2].transform, false);
+                    inventory.numItem[2] += 24;
+                }
+                else
+                {
+                    Instantiate(itemButton, inventory.slots[3].transform, false);
+                    inventory.numItem[3] += 24;
                 }
                 thisSeed.SetActive(false);
             }
