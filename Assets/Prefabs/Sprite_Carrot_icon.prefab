@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4421565335392577703}
   - component: {fileID: 6050404936659522404}
+  - component: {fileID: -1963867909867973846}
   m_Layer: 0
   m_Name: Sprite_Carrot_icon
-  m_TagString: Carrot
+  m_TagString: Carrot1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,9 +71,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -326219169
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 947690307
+  m_SortingLayer: 4
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: f2c50504d7db1cd4d8df1e3bb31d78e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84,3 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-1963867909867973846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5308801414888969743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26def9f660b4d845aad5008601790f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9006572835359610, guid: a4cb72d3e66135b40a5b757c3002806a, type: 3}
+  itemButton: {fileID: 5029216145129760092, guid: 900e36f377ea049498dec31fa4054e12, type: 3}
+  thisSeed: {fileID: 5308801414888969743}

@@ -5,15 +5,16 @@ using UnityEngine;
 
 public class Seed : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     public GameObject itemButton;
     public GameObject thisSeed;
     private Inventory inventory;
 
-    int offset = 1;
+    int offset = 5;
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         inventory = player.GetComponent<Inventory>();
     }
 
@@ -40,11 +41,32 @@ public class Seed : MonoBehaviour
                     Instantiate(itemButton, inventory.slots[2].transform, false);
                     inventory.numItem[2] += 24;
                 }
-                else
+                else if (thisSeed.tag == "Catnip")
                 {
                     Instantiate(itemButton, inventory.slots[3].transform, false);
                     inventory.numItem[3] += 24;
                 }
+                else if (thisSeed.tag == "Carrot1")
+                {
+                    Instantiate(itemButton, inventory.slots[4].transform, false);
+                    inventory.numItem[4] += 3;
+                }
+                else if (thisSeed.tag == "Corn1")
+                {
+                    Instantiate(itemButton, inventory.slots[5].transform, false);
+                    inventory.numItem[5] += 3;
+                }
+                else if (thisSeed.tag == "Wheat1")
+                {
+                    Instantiate(itemButton, inventory.slots[6].transform, false);
+                    inventory.numItem[6] += 3;
+                }
+                else if (thisSeed.tag == "Catnip1")
+                {
+                    Instantiate(itemButton, inventory.slots[7].transform, false);
+                    inventory.numItem[7] += 3;
+                }
+
                 thisSeed.SetActive(false);
             }
         }

@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6270286840930818477}
   - component: {fileID: 8467255203679709173}
+  - component: {fileID: 6466551927296361587}
   m_Layer: 0
   m_Name: Sprite_Catnip_icon
-  m_TagString: Untagged
+  m_TagString: Catnip1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -326219169
-  m_SortingLayer: 2
+  m_SortingLayerID: 145247707
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c491ea482c05c5747a804797b1556048, type: 3}
   m_Color: {r: 0.9811321, g: 0.0037023122, b: 0.0037023122, a: 1}
@@ -84,3 +85,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6466551927296361587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6509911222933670777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26def9f660b4d845aad5008601790f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemButton: {fileID: 5029216145129760092, guid: b851c1e55bec0234e8c2b613af4d1e86, type: 3}
+  thisSeed: {fileID: 6509911222933670777}
