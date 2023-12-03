@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486569478820034733}
   - component: {fileID: 7246733583612173467}
+  - component: {fileID: 7355474989922935034}
   m_Layer: 0
   m_Name: Sprite_Wheat_01
   m_TagString: Untagged
@@ -84,3 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7355474989922935034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630030264641127872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3797f102466de4793211f17a61d913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CropToYield: {fileID: 6470461545091436157, guid: 56d3d86254992684fba8df8f0e77b2c5, type: 3}
+  thisCrop: {fileID: 7630030264641127872}
+  player: {fileID: 9006572835359610, guid: a4cb72d3e66135b40a5b757c3002806a, type: 3}

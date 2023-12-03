@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1853682915322009262}
   - component: {fileID: 3980691229317887577}
+  - component: {fileID: 4563294691808632220}
   m_Layer: 0
   m_Name: Sprite_Corn_01
-  m_TagString: Untagged
+  m_TagString: Corn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,3 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4563294691808632220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458533391840855454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3797f102466de4793211f17a61d913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CropToYield: {fileID: 298238750208204214, guid: 9462a9547bde8ca4aad00bae07f46245, type: 3}
+  thisCrop: {fileID: 1458533391840855454}
+  player: {fileID: 9006572835359610, guid: a4cb72d3e66135b40a5b757c3002806a, type: 3}
