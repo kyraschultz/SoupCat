@@ -13,6 +13,8 @@ TagManager:
   - Wheat1
   - Catnip1
   - Canvas
+  - EatSoup
+  - GiveSoup
   layers:
   - Default
   - TransparentFX

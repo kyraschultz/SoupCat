@@ -22,7 +22,7 @@ public class StartButton : MonoBehaviour
         {
             // Interact with object
             controls.Disable();
-            SceneManager.LoadScene("Main", LoadSceneMode.Additive);
+            SceneManager.LoadScene("Main");
             UnityEngine.Debug.Log("Click");
         }
     }

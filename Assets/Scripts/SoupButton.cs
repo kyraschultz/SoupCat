@@ -16,6 +16,8 @@ public class SoupButton : MonoBehaviour
     public Button catnipButton;
     public GameObject soupPanel;
     private GameObject canvas;
+    private EatSoup eatsoupButton;
+    private GiveCatSoup giveCatButton;
     
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,10 @@ public class SoupButton : MonoBehaviour
             inventory.harvestCount[0] -= 4;
             inventory.soupCount[0]++;
             Instantiate(soupPanel, canvas.transform, false);
+            eatsoupButton = GameObject.FindGameObjectWithTag("EatSoup").GetComponent<EatSoup>();
+            giveCatButton = GameObject.FindGameObjectWithTag("GiveSoup").GetComponent<GiveCatSoup>();
+            eatsoupButton.SetSoup(0);
+            giveCatButton.SetSoup(0);
             //countText.text = inventory.harvestCount[0].ToString();
         }
     }
@@ -49,6 +55,10 @@ public class SoupButton : MonoBehaviour
             inventory.soupCount[1]++;
             UnityEngine.Debug.Log("Corn Soup");
             Instantiate(soupPanel, canvas.transform, false);
+            eatsoupButton = GameObject.FindGameObjectWithTag("EatSoup").GetComponent<EatSoup>();
+            giveCatButton = GameObject.FindGameObjectWithTag("GiveSoup").GetComponent<GiveCatSoup>();
+            eatsoupButton.SetSoup(1);
+            giveCatButton.SetSoup(1);
             //countText.text = inventory.harvestCount[1].ToString();
         }
     }
@@ -60,6 +70,10 @@ public class SoupButton : MonoBehaviour
             inventory.soupCount[2]++;
             UnityEngine.Debug.Log("Wheat Berry Soup");
             Instantiate(soupPanel, canvas.transform, false);
+            eatsoupButton = GameObject.FindGameObjectWithTag("EatSoup").GetComponent<EatSoup>();
+            giveCatButton = GameObject.FindGameObjectWithTag("GiveSoup").GetComponent<GiveCatSoup>();
+            eatsoupButton.SetSoup(2);
+            giveCatButton.SetSoup(2);
             //countText.text = inventory.harvestCount[2].ToString();
         }
     }
@@ -71,6 +85,10 @@ public class SoupButton : MonoBehaviour
             inventory.soupCount[3]++;
             UnityEngine.Debug.Log("Catnip Soup");
             Instantiate(soupPanel, canvas.transform, false);
+            eatsoupButton = GameObject.FindGameObjectWithTag("EatSoup").GetComponent<EatSoup>();
+            giveCatButton = GameObject.FindGameObjectWithTag("GiveSoup").GetComponent<GiveCatSoup>();
+            eatsoupButton.SetSoup(3);
+            giveCatButton.SetSoup(3);
             //countText.text = inventory.harvestCount[3].ToString();
         }
     }

@@ -6,6 +6,7 @@ public class EatSoup : MonoBehaviour
 {
     private Inventory inventory;
     private GameObject player;
+    private int SoupNum = -1;
 
     void Start()
     {
@@ -15,6 +16,12 @@ public class EatSoup : MonoBehaviour
 
     public void disablePanel()
     {
+        UnityEngine.Debug.Log("Eat Soup: " + SoupNum);
         this.transform.parent.gameObject.SetActive(false);
+    }
+
+    public void SetSoup(int soup)
+    {
+        SoupNum = soup;
     }
 }
