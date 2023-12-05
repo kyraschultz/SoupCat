@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Seed : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class Seed : MonoBehaviour
     public GameObject itemButton;
     public GameObject thisSeed;
     private Inventory inventory;
+
 
     int offset = 5;
     // Start is called before the first frame update
@@ -49,22 +52,26 @@ public class Seed : MonoBehaviour
                 else if (thisSeed.tag == "Carrot1")
                 {
                     Instantiate(itemButton, inventory.slots[4].transform, false);
-                    inventory.numItem[4] += 3;
+                    inventory.harvestCount[0] += 3;
+                    //countText.text = inventory.harvestCount[0].ToString();
                 }
                 else if (thisSeed.tag == "Corn1")
                 {
                     Instantiate(itemButton, inventory.slots[5].transform, false);
-                    inventory.numItem[5] += 3;
+                    inventory.harvestCount[1] += 3;
+                    //countText.text = inventory.harvestCount[1].ToString();
                 }
                 else if (thisSeed.tag == "Wheat1")
                 {
                     Instantiate(itemButton, inventory.slots[6].transform, false);
-                    inventory.numItem[6] += 3;
+                    inventory.harvestCount[2] += 3;
+                    //countText.text = inventory.harvestCount[2].ToString();
                 }
                 else if (thisSeed.tag == "Catnip1")
                 {
                     Instantiate(itemButton, inventory.slots[7].transform, false);
-                    inventory.numItem[7] += 3;
+                    inventory.harvestCount[3] += 3;
+                    //countText.text = inventory.harvestCount[3].ToString();
                 }
 
                 thisSeed.SetActive(false);

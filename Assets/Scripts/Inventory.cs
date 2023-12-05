@@ -6,6 +6,8 @@ public class Inventory : MonoBehaviour
 {
     public int[] numItem;
     public GameObject[] slots;
+    public int[] soupCount;
+    public int[] harvestCount;
     // Start is called before the first frame update
     void Start()
     {

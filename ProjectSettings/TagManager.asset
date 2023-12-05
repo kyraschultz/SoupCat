@@ -8,6 +8,11 @@ TagManager:
   - Corn
   - Wheat
   - Catnip
+  - Carrot1
+  - Corn1
+  - Wheat1
+  - Catnip1
+  - Canvas
   layers:
   - Default
   - TransparentFX
