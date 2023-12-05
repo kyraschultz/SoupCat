@@ -134,6 +134,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7420351474451457132}
+        m_TargetAssemblyTypeName: GiveCatSoup, Assembly-CSharp
+        m_MethodName: displayPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7420351474451457132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6354bd1cf340c274899e7f0f72749eb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelToDisplay: {fileID: 5532822988040088539, guid: bac92c737ff83654598e06ca8bd99bf0, type: 3}
 --- !u!1 &2220980072555661751
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,6 +642,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3610588825204989734}
+        m_TargetAssemblyTypeName: EatSoup, Assembly-CSharp
+        m_MethodName: displayPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3610588825204989734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fe56ae99aa90a54d8547c63b0838961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelToDisplay: {fileID: 5339590159161277181, guid: a16d6eec0641a994aab4d0bf52821987, type: 3}
+  catnipPanel: {fileID: 5339590159161277181, guid: 59adc86adf80fb8469d9f27b33bd2a96, type: 3}
 --- !u!1 &9153469748734963470
 GameObject:
   m_ObjectHideFlags: 0

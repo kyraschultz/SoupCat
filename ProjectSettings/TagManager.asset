@@ -15,6 +15,10 @@ TagManager:
   - Canvas
   - EatSoup
   - GiveSoup
+  - Moe
+  - Webster
+  - Coco
+  - Smudge
   layers:
   - Default
   - TransparentFX

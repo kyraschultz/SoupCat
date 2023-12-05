@@ -34,6 +34,7 @@ public class Plant : MonoBehaviour
                     Instantiate(plants[slotNum], tileLoc.transform, false);
                     inventory.numItem[slotNum]--;
                     hasSeed = true;
+                    inventory.playerEnergy -= 5;
                 }
                 
             }
@@ -46,6 +47,7 @@ public class Plant : MonoBehaviour
                     Instantiate(plants[slotNum], tileLoc.transform, false);
                     inventory.numItem[slotNum]--;
                     hasSeed = true;
+                    inventory.playerEnergy -= 7;
                 }
 
             }
@@ -58,6 +60,7 @@ public class Plant : MonoBehaviour
                     Instantiate(plants[slotNum], tileLoc.transform, false);
                     inventory.numItem[slotNum]--;
                     hasSeed = true;
+                    inventory.playerEnergy -= 7;
                 }
 
             }
@@ -70,6 +73,7 @@ public class Plant : MonoBehaviour
                     Instantiate(plants[slotNum], tileLoc.transform, false);
                     inventory.numItem[slotNum]--;
                     hasSeed = true;
+                    inventory.playerEnergy -= 7;
                 }
 
             }
